@@ -731,6 +731,7 @@ body {
   margin-right: -10px;
 }
 .Homepage .FestivalTileGrid .FestivalTiles .Tile {
+  text-align: center;
   width: 50%;
 }
 @media (min-width: 480px) and (max-width: 768px) {
