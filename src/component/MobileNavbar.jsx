@@ -3,11 +3,9 @@ import { useState } from "react";
 
 const MobileNavbar = () => {
   const [burgerIsClicked, setBurgerIsClicked] = useState(false);
-  //   const [isOpen, setIsOpen] = useState("");
 
   const burgerMenu = () => {
     setBurgerIsClicked(!burgerIsClicked);
-    // burgerIsClicked && setIsOpen("isopen");
   };
   return (
     <nav className="mob-nav">

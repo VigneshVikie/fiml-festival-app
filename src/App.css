@@ -55,6 +55,7 @@ body {
     font-size: 24px;
     font-weight: 700;
     height: 20%;
+    cursor: pointer;
   }
   .mob-links {
     height: 70%;
@@ -172,7 +173,7 @@ body {
   display: inline-block;
   left: 0;
   position: absolute;
-  width: 100%;
+  width: 100%;  
 }
 .DecorativeText-component .Text {
   background-color: #fff;
@@ -297,8 +298,8 @@ body {
         width: 0;
         height: 0;
         border-style: solid;
-        border-width: 0 16px 4px 0; /* Adjusted border-width values for slanting effect */
-        border-color: transparent #fff transparent transparent; /* Adjusted border-color values */
+        border-width: 0 16px 4px 0;
+        border-color: transparent #fff transparent transparent;
       }
     }
   }
@@ -382,7 +383,6 @@ body {
   }
   .SiteNavigation-component {
     #nav-main {
-      /* padding: 0 20px; */
       display: flex;
       max-width: 728px;
       margin: auto;
@@ -394,6 +394,7 @@ body {
         .Logo {
           color: #fff;
           font-size: 22px;
+          cursor: pointer;
         }
         .Links {
           display: flex;
@@ -430,7 +431,6 @@ body {
       }
     }
   }
-
   .browse-btn2 {
     background-color: #fc5f64;
     color: #fff;
@@ -440,6 +440,7 @@ body {
     width: 194px;
     height: 48px;
     font-weight: 700;
+    cursor: pointer;
   }
   #footer {
     width: 100%;
@@ -534,6 +535,7 @@ body {
         .Logo {
           color: #fff;
           font-size: 22px;
+          cursor: pointer;
         }
         .Links {
           display: flex;

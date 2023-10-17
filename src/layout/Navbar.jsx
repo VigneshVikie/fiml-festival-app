@@ -2,11 +2,13 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <header className="SiteNavigation-component" id="header" >
-      <nav id="nav-main" className="Bar" >
+    <header className="SiteNavigation-component" id="header">
+      <nav id="nav-main" className="Bar">
         <div className="Content">
           <div className="Logo-container">
-            <a className="Logo" href="#">FilmFreeway</a>
+            <a  className="Logo" href="#">
+              FilmFreeway
+            </a>
           </div>
           <ul className="Links">
             <li>
