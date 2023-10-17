@@ -1,5 +1,5 @@
 import React from "react";
-import { FestivalTiles } from "../FestivalTiles.js";
+import { FestivalTiles } from "../helper/FestivalTiles.js";
 
 const Festivals = () => {
   return (
