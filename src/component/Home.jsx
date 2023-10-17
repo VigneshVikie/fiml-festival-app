@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import MobileNavbar from "./MobileNavbar";
-import hero from "../assets/hero.jpg";
+import hero from "../assets/hero-max.jpg";
 import homeDriver from "../assets/home-driver.jpg";
 import homeStorytellers from "../assets/home-storytellers.jpg";
 import dark_logo_row_1 from "../assets/dark_logo_row-1.webp";
@@ -18,7 +18,7 @@ const Home = () => (
           <picture>
             <source type="image" srcSet={hero} media="(min-width: 1025px)" />
             <source type="image" srcSet={hero} />
-            <img className="hero-img" src={hero} alt="Hero" />
+            <img src={hero} alt="Hero" />
           </picture>
           <div className="Masthead-title">
             <div className="Header-hero">Easy Submitting</div>
