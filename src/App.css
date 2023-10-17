@@ -328,7 +328,8 @@ body {
     background-color: #0165e1;
   }
   .twitter:hover {
-    background-color: #1da1f2;
+    color: #fff;
+    background-color: #000;
   }
   .insta:hover {
     background: linear-gradient(
@@ -376,6 +377,9 @@ body {
     margin: 0 auto;
     max-width: 728px;
   }
+  .read-reviews-btn {
+    display: none;
+  }
   .SiteNavigation-component {
     #nav-main {
       /* padding: 0 20px; */
@@ -405,7 +409,7 @@ body {
             padding-bottom: 6px;
           }
         }
-        >ul>li>a{
+        > ul > li > a {
           z-index: 99999;
         }
         > ul > li > a::after {
@@ -657,6 +661,7 @@ body {
 }
 .Homepage .HappyFilmmakers .Quotes {
   align-items: center;
+  justify-content: center;
   display: flex;
   flex-flow: column nowrap;
   color: #666;
@@ -992,7 +997,7 @@ body {
     max-width: 1150px;
   }
 }
-@media (min-width: 1024px) and (max-width: 1200px) {
+@media (min-width: 1025px) and (max-width: 1200px) {
   .Homepage .ResponsiveLayout {
     margin: 0 auto;
     max-width: 980px;
@@ -1010,9 +1015,6 @@ body {
     padding-left: 20px;
     padding-right: 20px;
   }
-}
-
-@media (max-width: 480px), (min-width: 480px) and (max-width: 768px) {
   .Masthead-bar {
     background-color: hsla(0, 0%, 100%, 0.8);
   }
@@ -1041,15 +1043,13 @@ body {
     -o-object-position: 50% calc(80% - 120px);
     object-position: 50% calc(80% - 120px);
   }
+  .Masthead-container {
+    height: 620px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .Masthead-container {
     height: 550px;
-  }
-}
-@media (min-width: 1024px) and (max-width: 1199px), (min-width: 1200px) {
-  .Masthead-container {
-    height: 620px;
   }
 }
 .Masthead-logoContainer {
